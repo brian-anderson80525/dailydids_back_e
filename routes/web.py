@@ -11,5 +11,5 @@ ROUTES = [
         Post("/", "DidController@create").name("create"),
         Put("/@id", "DidController@update").name("update"),
         Delete("/@id", "DidController@destroy").name("destroy")
-    ], prefix="/did", name="did")
+    ], prefix="/dids", name="dids")
 ]
